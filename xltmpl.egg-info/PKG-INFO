@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: xltmpl
+Version: 1.0.6
+Summary: xltmpl is a package that can append data to excel files without changing worksheets’ style base on openpyxl and xlrd.
+Home-page: https://github.com/PyDa5/xltmpl
+Author: PyDa5
+Author-email: 1174446068@qq.com
+License: MIT
+Platform: UNKNOWN
+Requires: lxml
+Requires: openpyxl
+Requires: xlwt
+Requires: xlrd
+Requires: xlutils
+Requires: pandas
+Description-Content-Type: text/markdown
+
 ## 功能
 本模块基于openpyxl，通过自定义xls/xlsx模板，向模板写入数据，从而保留表格样式，适合固定格式报表导出。
 
@@ -64,3 +81,5 @@ with XlTemplate(tmpl_path=xlpath_tmpl, xlpath_save=xlpath_save, place_holder='{{
 * xltmpl支持xls和xlsx
 * 表头可以不在第一行，不在第一行时，追加数据需指定header_row参数
 * 模板最后一行全部填充{{}}
+
+
