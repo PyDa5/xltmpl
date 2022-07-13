@@ -36,7 +36,7 @@ with XlTemplate(tmpl_path=xlpath_tmpl, xlpath_save=xlpath_save, place_holder='{{
     row = ['apple', 'orange', 'banana']
     tmpl.append_row('Sheet1', row)
     
-    # 往第一个Sheet天机多行数据
+    # 往第一个Sheet添加多行数据
     rows = [
         ['Jason', 'M', 23],
         ['Rose', 'F', 19]]
